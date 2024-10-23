@@ -29,7 +29,7 @@
           <mxGeometry x="350" y="260" width="20" height="230" as="geometry" />
         </mxCell>
         <mxCell id="cr4mhXvr68cd64y3Tw5e-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="540" width="20" height="180" as="geometry" />
+          <mxGeometry x="550" y="610" width="20" height="180" as="geometry" />
         </mxCell>
         <mxCell id="cr4mhXvr68cd64y3Tw5e-11" value="" style="dgeStyle=orthogonalEdgeStyle;endArrow=none;dashed=1;html=1;rounded=0;entryX=0.04;entryY=0.916;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.12;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cr4mhXvr68cd64y3Tw5e-5" target="cr4mhXvr68cd64y3Tw5e-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -87,6 +87,15 @@
         </mxCell>
         <mxCell id="cr4mhXvr68cd64y3Tw5e-27" value="DELETAR_VENDA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="610" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cr4mhXvr68cd64y3Tw5e-28" target="cr4mhXvr68cd64y3Tw5e-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="640" as="sourcePoint" />
+            <mxPoint x="160" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
