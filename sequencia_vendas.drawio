@@ -133,6 +133,18 @@
             <mxPoint x="209" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-38" value="GERAR_RELATORIO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-39" value="ARMAZENAR_INFORMACOES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="620" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-40" value="ATUALIZAR_INFORMACOES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="670" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-42" value="DELETAR_INFORMACOES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="710" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
