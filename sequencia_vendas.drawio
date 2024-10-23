@@ -76,6 +76,18 @@
         <mxCell id="cr4mhXvr68cd64y3Tw5e-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="260" width="20" height="260" as="geometry" />
         </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-23" value="VENDER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-24" value="CANCELAR_VENDA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-26" value="ATUALIZAR_VENDA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cr4mhXvr68cd64y3Tw5e-27" value="DELETAR_VENDA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
