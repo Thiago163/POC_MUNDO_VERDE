@@ -80,22 +80,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SMgSuaXkYoLydavcJ1RQ-20" value="USUARIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="190" height="30" as="geometry" />
+          <mxGeometry x="39" y="670" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SMgSuaXkYoLydavcJ1RQ-21" value="- id_usuario: Int&lt;div&gt;- documento: Int&lt;/div&gt;&lt;div&gt;- tipo_documento: String&lt;/div&gt;&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- senha: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="710" width="190" height="110" as="geometry" />
+          <mxGeometry x="39" y="700" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SMgSuaXkYoLydavcJ1RQ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="820" width="190" height="100" as="geometry" />
+        <mxCell id="SMgSuaXkYoLydavcJ1RQ-22" value="+ CadastrarUsuario(usuario: Usuario)&lt;div&gt;+ DeletarUsuario(usuario: Usuario)&lt;/div&gt;&lt;div&gt;+ AtualizarUsuario(usuario: Usuario)&lt;/div&gt;&lt;div&gt;+ ListarUsuarios(usuario: Usuario)&lt;/div&gt;&lt;div&gt;+ ConsultarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ConsultarUsuarioPorDocumento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="39" y="820" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SMgSuaXkYoLydavcJ1RQ-23" value="LOGRADOURO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="680" width="190" height="30" as="geometry" />
+        <mxCell id="SMgSuaXkYoLydavcJ1RQ-27" value="LOGRADOURO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="670" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SMgSuaXkYoLydavcJ1RQ-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="710" width="190" height="100" as="geometry" />
+        <mxCell id="SMgSuaXkYoLydavcJ1RQ-28" value="- id_logradouro: Int&lt;div&gt;- cep: Int&lt;/div&gt;&lt;div&gt;- estado: String&lt;/div&gt;&lt;div&gt;- cidade: String&lt;/div&gt;&lt;div&gt;- rua: String&lt;/div&gt;&lt;div&gt;- pais: String&lt;/div&gt;&lt;div&gt;- numero: String&lt;/div&gt;&lt;div&gt;- complemento: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="469" y="700" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SMgSuaXkYoLydavcJ1RQ-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="810" width="190" height="100" as="geometry" />
+        <mxCell id="SMgSuaXkYoLydavcJ1RQ-29" value="+ CadastrarLogradouro(logradouro: Logradouro)&lt;div&gt;+ DeletarLogradouro(logradouro: Logradouro)&lt;/div&gt;&lt;div&gt;+ AtualizarLogradouro&lt;span style=&quot;background-color: initial;&quot;&gt;(logradouro: Logradouro)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ListarLogradouro&lt;span style=&quot;background-color: initial;&quot;&gt;(logradouro: Logradouro)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ GerarRelatorio&lt;span style=&quot;background-color: initial;&quot;&gt;(logradouro: Logradouro, campo: Campo)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="469" y="820" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SMgSuaXkYoLydavcJ1RQ-31" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMgSuaXkYoLydavcJ1RQ-22" target="SMgSuaXkYoLydavcJ1RQ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="780" as="sourcePoint" />
+            <mxPoint x="469" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
