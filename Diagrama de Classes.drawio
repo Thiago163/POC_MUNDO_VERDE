@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Página-1" id="ytihJ-0XNnwM5QsC00rT">
-    <mxGraphModel dx="1229" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2345" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="961.5" y="790" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadstrarAlimento(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deletarAlimento(alimento: Alimento): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarAlimento()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ fornecerInformacaoAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="961.5" y="900" width="320" height="100" as="geometry" />
+          <mxGeometry x="961.5" y="900" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-21" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1117" y="730" width="60" height="30" as="geometry" />
