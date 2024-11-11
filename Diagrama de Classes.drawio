@@ -56,16 +56,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-18" value="ALIMENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="500" width="320" height="30" as="geometry" />
+          <mxGeometry x="954.5" y="520" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-19" value="- id_alimento: int&lt;div&gt;+ nome_alimento: String&lt;/div&gt;&lt;div&gt;+ marca_semente: String&lt;/div&gt;&lt;div&gt;+ data_plantacao: Date&lt;/div&gt;&lt;div&gt;+tipo_alimento: String&lt;/div&gt;&lt;div&gt;+ periodo_plantacao: Date&lt;/div&gt;&lt;div&gt;+ data_validade_semente: Date&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="990" y="530" width="320" height="110" as="geometry" />
+          <mxGeometry x="954.5" y="550" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadstrarAlimento(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deletarAlimento(alimento: Alimento): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarAlimento()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ fornecerInformacaoAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="990" y="640" width="320" height="100" as="geometry" />
+          <mxGeometry x="954.5" y="660" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-21" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="460" width="60" height="30" as="geometry" />
+          <mxGeometry x="1110" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-18" target="_89sPNCxz9gJoZE8T32z-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="450" as="sourcePoint" />
+            <mxPoint x="1560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-23" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="420" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
