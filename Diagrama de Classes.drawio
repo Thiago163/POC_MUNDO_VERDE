@@ -104,13 +104,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-31" value="GERAR_INFORMACOES_COMPRA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="780" width="300" height="30" as="geometry" />
+          <mxGeometry x="23" y="790" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-32" value="+ id_itens_venda: int&lt;div&gt;+ id_venda: int&lt;/div&gt;&lt;div&gt;+ codigo_produto: int&lt;/div&gt;&lt;div&gt;+ quantidade: Int&lt;/div&gt;&lt;div&gt;+ preco_total: Decimal&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="810" width="300" height="90" as="geometry" />
+          <mxGeometry x="23" y="820" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-33" value="+ Gerar_relatorio(gerar: Gerar): String&lt;div&gt;+ Armazenar_informacoes&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Deletar_informacoes&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ Atualizar_informacoes&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="900" width="300" height="80" as="geometry" />
+          <mxGeometry x="23" y="910" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-31" target="_89sPNCxz9gJoZE8T32z-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="800" as="sourcePoint" />
+            <mxPoint x="500" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-36" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-37" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="760" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
