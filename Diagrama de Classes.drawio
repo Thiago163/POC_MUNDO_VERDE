@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_89sPNCxz9gJoZE8T32z-1" value="USUARIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="290" height="30" as="geometry" />
+          <mxGeometry x="30" y="160" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-2" value="- id_usuario: Int&lt;div&gt;- documento: Int&lt;/div&gt;&lt;div&gt;- tipo_documento: Strings&lt;/div&gt;&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- Senha: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="190" width="290" height="110" as="geometry" />
+          <mxGeometry x="30" y="190" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_89sPNCxz9gJoZE8T32z-3" value="+ cadastrarUsuario(usuario: Usuario): String&lt;div&gt;- deletarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarUsuario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarUsuario()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuario(idUsuario: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuarioPorDocumento(documento: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="300" width="290" height="100" as="geometry" />
+        <mxCell id="_89sPNCxz9gJoZE8T32z-3" value="+ cadastrarUsuario(usuario: Usuario): String&lt;div&gt;- deletarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarUsuario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarUsuario()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuario(idUsuario: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuarioPorDocumento(documento: int): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-4" value="LOGRADOURO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="150" width="290" height="30" as="geometry" />
+          <mxGeometry x="470" y="150" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-5" value="- id_logradouro: Int&lt;div&gt;- cep: String&lt;/div&gt;&lt;div&gt;- estado: String&lt;/div&gt;&lt;div&gt;- cidade: String&lt;/div&gt;&lt;div&gt;- rua: String&lt;/div&gt;&lt;div&gt;- pais: String&lt;/div&gt;&lt;div&gt;- numero: Int&lt;/div&gt;&lt;div&gt;- complemento: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="470" y="180" width="290" height="120" as="geometry" />
+          <mxGeometry x="470" y="180" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_89sPNCxz9gJoZE8T32z-6" value="+ cadastrarUsuario(usuario: Usuario): String&lt;div&gt;- deletarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarUsuario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarUsuario()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuario(idUsuario: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuarioPorDocumento(documento: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="470" y="300" width="290" height="100" as="geometry" />
+        <mxCell id="_89sPNCxz9gJoZE8T32z-6" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadastrarLogradouro(logradouro: Logradouro): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deletarLogradouro(loradouro: Logradouro): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- atualizarLogradouro(logradouro: Logradouro): String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-3" target="_89sPNCxz9gJoZE8T32z-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
