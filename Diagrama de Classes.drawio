@@ -34,6 +34,15 @@
         <mxCell id="_89sPNCxz9gJoZE8T32z-9" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="270" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-10" value="USUARIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941" y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-11" value="- id_usuario: Int&lt;div&gt;- documento: Int&lt;/div&gt;&lt;div&gt;- tipo_documento: Strings&lt;/div&gt;&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- Senha: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="941" y="140" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-12" value="+ cadastrarUsuario(usuario: Usuario): String&lt;div&gt;- deletarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarUsuario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarUsuario()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuario(idUsuario: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuarioPorDocumento(documento: int): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="941" y="250" width="300" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
