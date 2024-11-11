@@ -146,13 +146,25 @@
           <mxGeometry x="1306" y="620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-45" value="CAMPO_COMPONENTE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="942.75" y="210" width="448.5" height="30" as="geometry" />
+          <mxGeometry x="917.75" y="210" width="448.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-46" value="id_campo_componente: Int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="942.75" y="240" width="448.5" height="30" as="geometry" />
+          <mxGeometry x="917.75" y="240" width="448.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-47" value="+ cadastrarCampoComponente(campoComponente: CampoComponente): String&lt;div&gt;+ deletarCampoComponente&lt;span style=&quot;background-color: initial;&quot;&gt;(campoComponente: CampoComponente): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarCampoComponente&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(campoComponente: CampoComponente): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarCampoComponente()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ previsaoProximoAdubo&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(campoComponente: CampoComponente): Date&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="942.75" y="270" width="448.5" height="100" as="geometry" />
+          <mxGeometry x="917.75" y="270" width="448.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-10" target="_89sPNCxz9gJoZE8T32z-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="310" as="sourcePoint" />
+            <mxPoint x="760" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-49" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1147" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-50" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1147" y="370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
