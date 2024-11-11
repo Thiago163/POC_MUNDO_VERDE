@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Página-1" id="ytihJ-0XNnwM5QsC00rT">
-    <mxGraphModel dx="1518" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,15 @@
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-23" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-25" value="VENDER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-26" value="+ id_produto: String&lt;div&gt;+ codigo_produto: Int&lt;/div&gt;&lt;div&gt;+ nome_produto: String&lt;/div&gt;&lt;div&gt;+ descricao_produto: String&lt;/div&gt;&lt;div&gt;+ preco_produto: Decimal&lt;/div&gt;&lt;div&gt;+ imagemProduto: Text&lt;/div&gt;&lt;div&gt;+ categoria_produto: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_89sPNCxz9gJoZE8T32z-27" value="+ Vender(vender: Vender): Boolean&lt;div&gt;+ Cancelar_venda:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(vender: Vender): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Atualizar_venda&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(vender: Vender): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Deletar_venda(itens_venda: Itens_venda): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
