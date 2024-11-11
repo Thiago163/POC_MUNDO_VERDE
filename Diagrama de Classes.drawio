@@ -1,128 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Página-1" id="ytihJ-0XNnwM5QsC00rT">
-    <mxGraphModel dx="1075" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_89sPNCxz9gJoZE8T32z-1" value="USUARIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="300" height="30" as="geometry" />
+          <mxGeometry x="37" y="400" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-2" value="- id_usuario: Int&lt;div&gt;- documento: Int&lt;/div&gt;&lt;div&gt;- tipo_documento: Strings&lt;/div&gt;&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- Senha: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="190" width="300" height="110" as="geometry" />
+          <mxGeometry x="37" y="430" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-3" value="+ cadastrarUsuario(usuario: Usuario): String&lt;div&gt;- deletarUsuario&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarUsuario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(usuario: Usuario): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarUsuario()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuario(idUsuario: int): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarUsuarioPorDocumento(documento: int): Int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="300" width="300" height="110" as="geometry" />
+          <mxGeometry x="37" y="540" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-4" value="LOGRADOURO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="150" width="360" height="30" as="geometry" />
+          <mxGeometry x="467" y="390" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-5" value="- id_localizacao: Int&lt;div&gt;- cep: String&lt;/div&gt;&lt;div&gt;+ estado: String&lt;/div&gt;&lt;div&gt;+ cidade: String&lt;/div&gt;&lt;div&gt;- rua: String&lt;/div&gt;&lt;div&gt;+ pais: String&lt;/div&gt;&lt;div&gt;- numero: Int&lt;/div&gt;&lt;div&gt;- complemento: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="460" y="180" width="360" height="120" as="geometry" />
+          <mxGeometry x="467" y="420" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-6" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadastrarLogradouro(logradouro: Logradouro): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deletarLogradouro(loradouro: Logradouro): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- atualizarLogradouro(logradouro: Logradouro): String&lt;/div&gt;&lt;div&gt;+ listarLogradouro()&lt;/div&gt;&lt;div&gt;+ gerarRelatórioLogradouro(Logradouro_Campo: Campo): String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="460" y="300" width="360" height="100" as="geometry" />
+          <mxGeometry x="467" y="540" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-8" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="327" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-9" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="407" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-10" value="CAMPO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="140" width="329" height="30" as="geometry" />
+          <mxGeometry x="957" y="380" width="329" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-11" value="- id_campo: Int&lt;div&gt;+ quantidade_mudas: Int&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ tamanho_campo: Decimal&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ qualidade_solo: String&lt;/div&gt;&lt;div&gt;+ tipo_solo: String&lt;/div&gt;&lt;div&gt;+ data_ultima_colheita: Date&lt;/div&gt;&lt;div&gt;+ previsao_colheita: Date&lt;/div&gt;&lt;div&gt;+ estacao_ano: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="950" y="170" width="329" height="130" as="geometry" />
+          <mxGeometry x="957" y="410" width="329" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-12" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadastrarCampo(campo: Campo): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deletarCampo(campo: Campo): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarCampo(campo: Campo): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarCampos()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ realizarQuestionario&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(campo: Campo): Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarCampo&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(campo: Campo): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ consultarCampoPorDocumento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(campo: Campo): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="950" y="300" width="329" height="120" as="geometry" />
+          <mxGeometry x="957" y="540" width="329" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-6" target="_89sPNCxz9gJoZE8T32z-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="520" as="sourcePoint" />
-            <mxPoint x="870" y="470" as="targetPoint" />
+            <mxPoint x="827" y="760" as="sourcePoint" />
+            <mxPoint x="877" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-14" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="827" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-15" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="897" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-3" target="_89sPNCxz9gJoZE8T32z-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="500" as="sourcePoint" />
-            <mxPoint x="570" y="450" as="targetPoint" />
+            <mxPoint x="527" y="740" as="sourcePoint" />
+            <mxPoint x="577" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-18" value="ALIMENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="954.5" y="520" width="320" height="30" as="geometry" />
+          <mxGeometry x="961.5" y="760" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-19" value="- id_alimento: int&lt;div&gt;+ nome_alimento: String&lt;/div&gt;&lt;div&gt;+ marca_semente: String&lt;/div&gt;&lt;div&gt;+ data_plantacao: Date&lt;/div&gt;&lt;div&gt;+tipo_alimento: String&lt;/div&gt;&lt;div&gt;+ periodo_plantacao: Date&lt;/div&gt;&lt;div&gt;+ data_validade_semente: Date&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="954.5" y="550" width="320" height="110" as="geometry" />
+          <mxGeometry x="961.5" y="790" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ cadstrarAlimento(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deletarAlimento(alimento: Alimento): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ atualizarAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ listarAlimento()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ fornecerInformacaoAlimento&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(alimento: Alimento): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="954.5" y="660" width="320" height="100" as="geometry" />
+          <mxGeometry x="961.5" y="900" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-21" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="490" width="60" height="30" as="geometry" />
+          <mxGeometry x="1117" y="730" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-18" target="_89sPNCxz9gJoZE8T32z-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1510" y="450" as="sourcePoint" />
-            <mxPoint x="1560" y="400" as="targetPoint" />
+            <mxPoint x="1517" y="690" as="sourcePoint" />
+            <mxPoint x="1567" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-23" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="420" width="60" height="30" as="geometry" />
+          <mxGeometry x="1127" y="660" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-25" value="VENDER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23" y="495" width="300" height="30" as="geometry" />
+          <mxGeometry x="30" y="735" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-26" value="+ id_produto: String&lt;div&gt;+ codigo_produto: Int&lt;/div&gt;&lt;div&gt;+ nome_produto: String&lt;/div&gt;&lt;div&gt;+ descricao_produto: String&lt;/div&gt;&lt;div&gt;+ preco_produto: Decimal&lt;/div&gt;&lt;div&gt;+ imagemProduto: Text&lt;/div&gt;&lt;div&gt;+ categoria_produto: String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="23" y="525" width="300" height="110" as="geometry" />
+          <mxGeometry x="30" y="765" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-27" value="+ Vender(vender: Vender): Boolean&lt;div&gt;+ Cancelar_venda:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(vender: Vender): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Atualizar_venda&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(vender: Vender): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Deletar_venda(itens_venda: Itens_venda): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="23" y="635" width="300" height="80" as="geometry" />
+          <mxGeometry x="30" y="875" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.475;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-25" target="_89sPNCxz9gJoZE8T32z-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="600" as="sourcePoint" />
-            <mxPoint x="590" y="550" as="targetPoint" />
+            <mxPoint x="547" y="840" as="sourcePoint" />
+            <mxPoint x="597" y="790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="173" y="412" />
+              <mxPoint x="180" y="652" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-29" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="465" width="60" height="30" as="geometry" />
+          <mxGeometry x="177" y="705" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-30" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="177" y="650" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-31" target="_89sPNCxz9gJoZE8T32z-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-31" value="GERAR_INFORMACOES_COMPRA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23" y="790" width="300" height="30" as="geometry" />
+          <mxGeometry x="30" y="1030" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-32" value="+ id_itens_venda: int&lt;div&gt;+ id_venda: int&lt;/div&gt;&lt;div&gt;+ codigo_produto: int&lt;/div&gt;&lt;div&gt;+ quantidade: Int&lt;/div&gt;&lt;div&gt;+ preco_total: Decimal&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="23" y="820" width="300" height="90" as="geometry" />
+          <mxGeometry x="30" y="1060" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-33" value="+ Gerar_relatorio(gerar: Gerar): String&lt;div&gt;+ Armazenar_informacoes&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Deletar_informacoes&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ Atualizar_informacoes&lt;span style=&quot;background-color: initial;&quot;&gt;(gerar: Gerar): String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="23" y="910" width="300" height="80" as="geometry" />
+          <mxGeometry x="30" y="1150" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_89sPNCxz9gJoZE8T32z-31" target="_89sPNCxz9gJoZE8T32z-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="800" as="sourcePoint" />
-            <mxPoint x="500" y="750" as="targetPoint" />
+            <mxPoint x="457" y="1040" as="sourcePoint" />
+            <mxPoint x="507" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-36" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="715" width="60" height="30" as="geometry" />
+          <mxGeometry x="177" y="955" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_89sPNCxz9gJoZE8T32z-37" value="&lt;b&gt;1...*&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="177" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
